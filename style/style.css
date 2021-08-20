@@ -44,7 +44,6 @@ header nav a:hover{
     justify-content: center;
     align-items: flex-start;
     font-size: 16px;
-    border: 1px solid white;
     background: linear-gradient(rgba(0,0,0,.50) , rgba(0,0,0,.50)100%), 
     url('../img/loki_capa.jpeg');
     height: 400px;
@@ -52,7 +51,26 @@ header nav a:hover{
 }
 .description { 
     margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 .title {
+    margin-top: 20px;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button { 
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    margin-right: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.button:hover { 
+    background-color: white;
+    color: black;
 }
