@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NETFLIX JS Clone</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+<link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
 </head>
-
 <body>
-
     <header>
         <div class="container">
             <h2 class="logo">NETFLIX</h2>
@@ -26,21 +29,59 @@
     <main>
         <div class="film-principal">
             <div class="container">
-                <h3 class="title" >Loki</h3>
+                <h3 class="title">Loki</h3>
                 <p class="description">
-                    The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”
+                    The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place
+                    after the events of “Avengers: Endgame.”
                 </p>
-            </div>
-            <div class="buttons-flex">
-            <button role="button" class="button "> <i class="fas fa-play"> </i> Watch now</button>
-            <button role="button" class="button"><i class="fas fa-info-circle"></i> More Info</button>
+                <div class="buttons-flex">
+                    <button role="button" class="button ">
+                        <i class="fas fa-play"></i> Watch now</button>
+                    <button role="button" class="button">
+                        <i class="fas fa-info-circle"></i> More Info</button>
+                </div>
             </div>
         </div>
-
-
     </main>
-    <footer>footer</footer>
+
+    <div class="carousel-tv">
+        <div class="owl-carousel owl-theme">
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini1.jpeg" alt="mini1" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini2.jpeg" alt="mini2" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini3.jpeg" alt="mini3" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini4.jpeg" alt="mini4" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini5.jpeg" alt="mini5" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini6.jpeg" alt="mini6" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini7.jpeg" alt="mini7" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini8.jpeg" alt="mini8" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini9.jpeg" alt="mini9" >
+            </div>
+            <div class="mini-items">
+                <img class="box-film" src="./img/mini10.jpeg" alt="mini10" >
+            </div>       
+        </div>
+    </div>
     <script src="https://kit.fontawesome.com/2ed7de62a8.js" crossorigin="anonymous"></script>
+    <script src="./JS/owl/jquery.min.js"></script>
+    <script src="./JS/owl/owl.carousel.min.js"></script>
+    <script src="./JS/owl/setup.js"></script>
 </body>
 
 </html>
