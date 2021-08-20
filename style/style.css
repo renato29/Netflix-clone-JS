@@ -11,6 +11,7 @@
 body { 
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -22,7 +23,6 @@ header .container{
 header .logo{
     margin-left: 5px;
     margin-top: 5px;
-
     color: var(--vermelho);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -35,4 +35,24 @@ header nav a{
 
 header nav a:hover{ 
     color: #fff;
+}
+/* principal film  */
+
+.film-principal { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    border: 1px solid white;
+    background: linear-gradient(rgba(0,0,0,.50) , rgba(0,0,0,.50)100%), 
+    url('../img/loki_capa.jpeg');
+    height: 400px;
+    background-size: cover;
+}
+.description { 
+    margin-bottom: 40px;
+}
+.title {
+    font-size: 40px;
 }
